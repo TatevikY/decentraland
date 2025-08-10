@@ -1,5 +1,8 @@
 export class WebElements{
-    
+
+    decentraland_URL: string = 'https://decentraland.org/play/';
+    discord_URL: string = 'https://discord.com';
+
     login_google(){
         return cy.get('[data-testid="primary-test-id-google-button"]') 
     }
@@ -16,7 +19,7 @@ export class WebElements{
         return cy.get('[data-testid="extra-options-test-id-apple-button"]') 
     }
 
-    login_space_x(){
+    login_x(){
         return cy.get('[data-testid="extra-options-test-id-x-button"]') 
     }
 

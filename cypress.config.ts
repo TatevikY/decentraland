@@ -7,5 +7,7 @@ module.exports = defineConfig({
     },
     baseUrl: 'https://decentraland.org/play/',
     experimentalStudio: true,
+    experimentalSessionAndOrigin: true,
   },
-});
+  },
+);
