@@ -6,6 +6,6 @@ module.exports = defineConfig({
       // implement node event listeners here
     },
     baseUrl: 'https://decentraland.org/play/',
-    experimentalStudio: true
+    experimentalStudio: true,
   },
 });

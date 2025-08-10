@@ -6,20 +6,17 @@ export class Login{
     baseURL: string = 'https://decentraland.org/play/';
     
     login_google(){
-        cy.visit(this.baseURL)
-        webElements.login_page_username().clear().type(this.username)
-        webElements.login_page_password().clear().type(this.pwd).type('{enter}')
+        //
     }
 
     login_metamask(){
         cy.visit(this.baseURL)
-        webElements.login_page_username().clear().type(this.username)
-        webElements.login_page_password().clear().type(this.pwd).type('{enter}')
+        //
     }
 
     login_discord(){
         cy.visit(this.baseURL)
-        //
+        webElements.login_discord().click()
     }
 
     login_apple(){
